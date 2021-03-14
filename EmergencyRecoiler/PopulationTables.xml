@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+ <population Name="Bracelets 5" Load="Merge">
+    <group Name="Items" Style="pickone" Load="Merge">
+      <object Blueprint="EmergencyRecoilerJoppa" Weight="20" />
+    </group>
+  </population>
+</populations>
