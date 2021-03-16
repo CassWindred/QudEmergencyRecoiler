@@ -4,15 +4,16 @@
         <part Name="Render" DisplayName="emergency recoiler" ColorString="&amp;M" DetailColor="C" />
         <part Name="Description" Short="A small crystalline disk flanked by two segmented metallic straps that allows the machine to be attached to the arm.
 Looking closely into the distorted interior of the device reveals strange flickering reflections of a moment that seems, perhaps, to have come just one moment before." />
+        <part Name="Physics" Weight="10" Category="Armor" />
         <tag Name="Tier" Value="6" />
         <part Name="EnergyCellSocket" SlotType="EnergyCell" />
-        <part Name="RecoilOnDeath" DestinationZone="JoppaWorld.11.22.1.1.10" DestinationX="37" DestinationY="23" />
-        <part Name="Examiner" UnknownDisplayName="{{c|small bracelet}}" AlternateDisplayName="small bracelet with disc inset" Complexity="6" Difficulty="4" />
+        <part Name="Examiner" UnknownDisplayName="weird artifact" AlternateDisplayName="heavy bracelet with disc inset" Complexity="6" Difficulty="4" />
         <tag Name="Mods" Value="CommonMods,ElectronicsMods" />
         <tag Name="TinkerCategory" Value="utility" />
         <tag Name="AlwaysEquipAsArmor" />
         <tag Name="TechTier" Value="7" />
         <part Name="TinkerItem" Bits="33468" CanDisassemble="true" CanBuild="true" />
+        <part Name="Commerce" Value="100" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
     </object>
     <object Name="EmergencyRecoilerJoppa" Inherits="EmergencyRecoiler">
@@ -26,5 +27,14 @@ Looking closely into the distorted interior of the device reveals strange flicke
     <object Name="EmergencyRecoilerSixDayStilt" Inherits="EmergencyRecoiler">
         <part Name="Render" DisplayName="{{Y|Six Day Stilt}} emergency recoiler" ColorString="&amp;M" DetailColor="C" />
         <part Name="RecoilOnDeath" DestinationZone="JoppaWorld.5.2.1.2.10" DestinationX="38" DestinationY="12" />
+    </object>
+    <object Name="EmergencyRecoilerRandom" Inherits="EmergencyRecoiler">
+        <part Name="Render" DisplayName="random-point emergency recoiler" ColorString="&amp;M" DetailColor="C" />
+        <tag Name="TechTier" Value="6" />
+        <part Name="RandomRecoilOnDeath" />
+    </object>
+    <object Name="EmergencyRecoilerLocal" Inherits="EmergencyRecoiler">
+        <part Name="Render" DisplayName="local-point emergency recoiler" ColorString="&amp;M" DetailColor="C" />
+        <part Name="LocalRandomRecoilOnDeath" />
     </object>
 </objects>

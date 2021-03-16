@@ -1,21 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
 <encountertables>
-    <encountertable name="Artifact 3R" Load="Merge">
-        <object Chance="1" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+    <encountertable Name="Artifact 2R" Load="Merge">
+        <objects>
+            <object Chance="3" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="6" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+        </objects>
     </encountertable>
-    <encountertable name="Artifact 4R" Load="Merge">
-        <object Chance="1" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+    <encountertable Name="Artifact 3R" Load="Merge">
+        <objects>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerGritGate"></object>
+            <object Chance="14" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+        </objects>
     </encountertable>
-    <encountertable name="Artifact 5R" Load="Merge">
-        <object Chance="2" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+    <encountertable Name="Artifact 4R" Load="Merge">
+        <objects>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerGritGate"></object>
+            <object Chance="4" Number="1d1" Blueprint="EmergencyRecoilerSixDayStilt"></object>
+            <object Chance="16" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+        </objects>
     </encountertable>
-    <encountertable name="Artifact 6R" Load="Merge">
-        <object Chance="2" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+    <encountertable Name="Artifact 5R" Load="Merge">
+        <objects>
+            <object Chance="7" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="7" Number="1d1" Blueprint="EmergencyRecoilerGritGate"></object>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerSixDayStilt"></object>
+            <object Chance="18" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+        </objects>
     </encountertable>
-    <encountertable name="Artifact 7R" Load="Merge">
-        <object Chance="3" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+    <encountertable Name="Artifact 6R" Load="Merge">
+        <objects>
+            <object Chance="6" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="6" Number="1d1" Blueprint="EmergencyRecoilerGritGate"></object>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerSixDayStilt"></object>
+            <object Chance="20" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+        </objects>
     </encountertable>
-    <encountertable name="Artifact 8R" Load="Merge">
-        <object Chance="3" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+    <encountertable Name="Artifact 7R" Load="Merge">
+        <objects>
+            <object Chance="6" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="4" Number="1d1" Blueprint="EmergencyRecoilerGritGate"></object>
+            <object Chance="5" Number="1d1" Blueprint="EmergencyRecoilerSixDayStilt"></object>
+            <object Chance="22" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+            <object Chance="10" Number="1d1" Blueprint="EmergencyRecoilerLocal"></object>
+        </objects>
+    </encountertable>
+    <encountertable Name="Artifact 8R" Load="Merge">
+        <objects>
+            <object Chance="6" Number="1d1" Blueprint="EmergencyRecoilerJoppa"></object>
+            <object Chance="8" Number="1d1" Blueprint="EmergencyRecoilerGritGate"></object>
+            <object Chance="10" Number="1d1" Blueprint="EmergencyRecoilerSixDayStilt"></object>
+            <object Chance="22" Number="1d1" Blueprint="EmergencyRecoilerRandom"></object>
+            <object Chance="12" Number="1d1" Blueprint="EmergencyRecoilerLocal"></object>
+        </objects>
     </encountertable>
 </encountertables>
