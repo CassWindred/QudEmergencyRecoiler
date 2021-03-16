@@ -12,7 +12,7 @@ namespace XRL.World.Parts
         public override void generateRecoilerPartonObject()
         {
 
-            MessageQueue.AddPlayerMessage($"Adding local Recoilondeath part!");
+            //MessageQueue.AddPlayerMessage($"Adding local Recoilondeath part!");
             RecoilOnDeath teleporter = ParentObject.RequirePart<RecoilOnDeath>();
 
             ZoneManager zoneManager = XRLCore.Core.Game.ZoneManager;
