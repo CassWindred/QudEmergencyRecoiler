@@ -1,0 +1,10 @@
+{
+	"id": "EmergencyRecoilers",
+	"loadorder": 10,
+	"title": "{{red|Emergency Recoilers}}",
+	"description": "Save yourself!",
+	"tags": "Script",
+	"version": "1.0",
+	"author": "Fyrefly",
+	"previewImage": "EmergencyRecoiler.png"
+}
