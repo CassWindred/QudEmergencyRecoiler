@@ -27,7 +27,7 @@ namespace XRL.World.Parts
             return base.SameAs(p);
         }
 
-        public override bool HandleEvent(IDisplayNameEvent E)
+        public override bool HandleEvent(GetDisplayNameEvent E)
         {
             if (ParentObject.Understood())
             {
